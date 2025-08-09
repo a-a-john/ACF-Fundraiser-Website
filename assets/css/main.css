@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Alice', serif;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+  background-color: pinls;
+  color: #333;
+}
+
+/* HERO SECTION */
+.hero {
+  background-image: url("../images/running_pink.jpg"); /* Replace with your own */
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title {
+  color: #ff66c4;
+  font-size: 8rem;
+  text-align: center;
+  padding: 20px;
+}
+
+/* CONTENT SECTION */
+.content-section {
+  padding: 60px 5%;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.content-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.content-section p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.content-section img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* DONATE BUTTON */
+.donate-button {
+  display: inline-block;
+  background-color: #ff66c4;
+  color: white;
+  padding: 12px 24px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.donate-button:hover {
+  background-color: #fd40b5;
+  transform: scale(1.05);
+}
+
+/* PROGRESS BAR */
+.progress-container {
+  margin: 40px auto;
+  width: 100%;
+  max-width: 600px;
+  background-color: #eee;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 30px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #ff66c4, #ffb9e4);
+  transition: width 2s ease-in-out;
+}
+
+/* DONATION TOTAL */
+p.donation-total {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ff66c4;
+  margin: 0;
+  text-align: center;
+}
+
+/* Pulse effect */
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.donation-total.pulse {
+  animation: pulse 0.4s ease;
+}
+
+/* Sparkles 
+.sparkle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  background: gold;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: sparkleAnim 0.8s ease-out forwards;
+}
+
+@keyframes sparkleAnim {
+  0% { transform: translate(-50%, -50%) scale(0); opacity: 1; }
+  100% { transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(1); opacity: 0; }
+} */
+
+
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+@media (max-width: 992px) {
+  .hero-title {
+    font-size: 3rem;
+    padding: 15px;
+  }
+
+  .content-section {
+    padding: 40px 4%;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2.2rem;
+    padding: 10px;
+  }
+
+  .content-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .content-section p {
+    font-size: 1rem;
+  }
+}
