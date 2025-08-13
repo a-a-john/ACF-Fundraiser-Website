@@ -32,6 +32,13 @@ body, html {
   padding: 20px;
 }
 
+.hero-subtitle {
+  color: #ff66c4;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
 /* CONTENT SECTION */
 .content-section {
   padding: 60px 5%;
@@ -77,6 +84,10 @@ body, html {
 .donate-button:hover {
   background-color: #fd40b5;
   transform: scale(1.05);
+}
+
+.donate-button-wrapper {
+  text-align: center; /* centers inline/inline-block elements */
 }
 
 /* PROGRESS BAR */
