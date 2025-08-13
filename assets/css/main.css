@@ -37,17 +37,29 @@ body, html {
   font-size: 1.5rem;
   text-align: center;
   margin-bottom: 1.5rem;
+  padding: 0 1rem;       
+  max-width: 800px;        
+  margin-left: auto; /* centers within container */
+  margin-right: auto;
+  box-sizing: border-box; /* ensure padding doesn't cause overflow */
 }
 
-/* CONTENT SECTION */
-.content-section {
+/* MAIN & CONTENT SECTION */
+.main-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 60px 5%;
-  max-width: 1000px;
-  margin: auto;
-  text-align: center;
+}
+
+.content-section {
+  flex: 1 1 55%; /* taking  ~55% of the width */
   background-color: white;
-  margin-bottom: 30px;
   border-radius: 10px;
+  padding: 40px;
+  text-align: left;
 }
 
 .content-section h2 {
@@ -65,6 +77,12 @@ body, html {
   height: auto;
   margin-top: 10px;
   border-radius: 10px;
+}
+
+.centered-content {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
 }
 
 /* DONATE BUTTON */
@@ -88,6 +106,21 @@ body, html {
 
 .donate-button-wrapper {
   text-align: center; /* centers inline/inline-block elements */
+}
+
+/* GALLERY */
+.gallery {
+  flex: 1 1 45%; /* take ~45% of the width */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 /* PROGRESS BAR */
@@ -170,5 +203,11 @@ p.donation-total {
 
   .content-section p {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-section {
+    flex-direction: column;
   }
 }
