@@ -15,7 +15,7 @@ body, html {
 
 /* HERO SECTION */
 .hero {
-  background-image: url("../images/running_pink.jpg"); /* Replace with your own */
+  background-image: url("../images/running_pink.jpg"); /* landing background */
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -105,20 +105,21 @@ body, html {
 }
 
 .donate-button-wrapper {
-  text-align: center; /* centers inline/inline-block elements */
+  text-align: center;
 }
 
 /* GALLERY */
 .gallery {
-  flex: 1 1 45%; /* take ~45% of the width */
+  flex: 1 1 45%; /* taking ~45% of the width */
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 10px;
+  margin-top: 2rem;
 }
 
 .gallery img {
   width: 100%;
-  height: auto;
+  height: 280px; /* fixing height to make it uniform, can alter this */
   border-radius: 8px;
   object-fit: cover;
 }
