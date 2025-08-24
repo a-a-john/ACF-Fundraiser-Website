@@ -15,7 +15,7 @@ body, html {
 
 /* HERO SECTION */
 .hero {
-  background-image: url("../images/running_pink.jpg"); /* landing background */
+  background-image: url("../images/IMG_1253.png"); /* landing background */
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -25,15 +25,19 @@ body, html {
   justify-content: center;
 }
 
+.hero-content {
+  margin-top: -250px; /* adjust the value as needed */
+}
+
 .hero-title {
-  color: #ff66c4;
+  color: #f33484;
   font-size: 8rem;
   text-align: center;
   padding: 20px;
 }
 
 .hero-subtitle {
-  color: #ff66c4;
+  color: #f33484;
   font-size: 1.5rem;
   text-align: center;
   margin-bottom: 1.5rem;
@@ -133,7 +137,7 @@ body, html {
 .progress-bar {
   position: relative;
   height: 100%;
-  background: linear-gradient(90deg, #ff66c4, #ffb9e4);
+  background: linear-gradient(90deg, #f33484, #fdd6e6);
   transition: width 2s ease-in-out;
 }
 
@@ -147,7 +151,7 @@ body, html {
 p.donation-total {
   font-size: 2.7rem;
   font-weight: bold;
-  color: #ff66c4;
+  color: #f33484;
   text-align: center;
 }
 
@@ -155,7 +159,7 @@ p.donation-total {
 /* DONATE BUTTON */
 .donate-button {
   display: inline-block;
-  background-color: #ff66c4;
+  background-color: #f33484;
   color: white;
   padding: 12px 24px;
   margin-top: 20px;
@@ -168,7 +172,7 @@ p.donation-total {
 }
 
 .donate-button:hover {
-  background-color: #e65cb0;
+  background-color: #db2f77;
   transform: scale(1.05);
 }
 
