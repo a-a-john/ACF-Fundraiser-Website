@@ -218,6 +218,10 @@ p.donation-total {
   .content-section {
     padding: 40px 4%;
   }
+
+  .gallery {
+    flex: unset;
+  }
 }
 
 @media (max-width: 600px) {
@@ -236,6 +240,12 @@ p.donation-total {
 
   p.donation-total {
   font-size: 1.8rem;
+  }
+  
+  .content-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
   }
 }
 
