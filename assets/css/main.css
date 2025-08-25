@@ -135,6 +135,7 @@ body, html {
 }
 
 .progress-bar {
+  width: 0;
   position: relative;
   height: 100%;
   background: linear-gradient(90deg, #f33484, #fdd6e6);
