@@ -4,7 +4,7 @@ This repository contains the website for our 2025 fundraiser, **Hope in Motion**
 
 We’re a self-run, Calgary-based team of hospital volunteers passionate about making cancer journeys easier for Albertans, and raising funds for cancer research, care, and support programs while aiming to run 15,000 km!
 
-**Live Website**: [Hope in Motion Fundraiser](https://a-a-john.github.io/ACF-Fundraiser-Website/)
+**Live Website**: [Hope in Motion](https://a-a-john.github.io/ACF-Fundraiser-Website/)
 
 If you’d like to support our cause and help us reach our fundraising goal please [**donate here**](https://fundraise.albertacancer.ca/HopeInMotion). All proceeds go directly to the Alberta Cancer Foundation.  
 
