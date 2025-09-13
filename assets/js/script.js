@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const totalElement = document.getElementById("donation-total");
-  const targetAmount = 0; // current amount raised
+  const targetAmount = 50; // current amount raised
   const progressBar = document.getElementById("progress-bar");
   const targetProgress = 0.40; // percent (%) current total miles run
   let hasAnimated = false;
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // ----- Odometer-style count up -----
   function countUp() {
     let current = 0;
-    const duration = 3000; // total animation time in ms
+    const duration = 1000; // total animation time in ms - 3000 is good for $1000
     const startTime = performance.now();
 
     function updateOdometer(now) {
