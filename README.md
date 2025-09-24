@@ -9,7 +9,7 @@ We’re a self-run, Calgary-based team of hospital volunteers passionate about m
 If you’d like to support our cause and help us reach our fundraising goal please [**donate here**](https://fundraise.albertacancer.ca/HopeInMotion). All proceeds go directly to the Alberta Cancer Foundation.  
 
 ---
-The Hope in Motion website was built to share our story and fundraiser details, raise awareness about cancer support an provide an easy way for community members to donate directly to the Alberta Cancer Foundation.  
+The Hope in Motion website was built to share our story and fundraiser details, raise awareness about cancer support and provide an easy way for community members to donate directly to the Alberta Cancer Foundation.
 
 ---
 
