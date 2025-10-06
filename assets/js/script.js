@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const totalElement = document.getElementById("donation-total");
-  const targetAmount = 50; // current amount raised
+  const targetAmount = 150; // current amount raised
   const progressBar = document.getElementById("progress-bar");
   const targetProgress = 0.40; // percent (%) current total miles run
   let hasAnimated = false;
